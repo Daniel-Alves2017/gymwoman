@@ -1,0 +1,83 @@
+.modality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 5rem;
+}
+
+.modality p {
+  text-align: center;
+  color: #222727;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 12px;
+}
+.modality.group > div:hover p {
+  border-bottom: 3px solid #222727;
+}
+
+.modality img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: all 0.2s ease-out;
+}
+
+.modality.group > div:hover img {
+  filter: grayscale(90%);
+  width: 304px;
+  height: 304px;
+}
+
+aside.modality.kick, aside.modality.jiu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 0;
+}
+
+.modality.kick,
+.modality.jiu {
+  display: block;
+  color: white;
+  max-width: 80%;
+}
+
+.modality.kick h1,
+.modality.jiu h1 {
+  border-bottom: 3px solid #a4a6a6;
+  text-align: center;
+  width: fit-content;
+  font-size: 42px;
+  margin: 0 auto;
+}
+.modality.kick > div,
+.modality.jiu > div {
+  display: flex;
+  flex-direction: column;
+}
+.modality.kick p,
+.modality.jiu p {
+  color: #fefefefe;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .modality {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5rem;
+  }
+  .modality.kick ul,
+  .modality.jiu ul {
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 32px;
+    padding-bottom: 24px;
+  }
+  
+}

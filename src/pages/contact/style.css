@@ -1,0 +1,61 @@
+aside.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 24px;
+}
+
+.contact .label {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contact .label label {
+ padding: 0 24px 0 0;
+  width: 60%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.social {
+  display: block;
+}
+.social a {
+  display: grid;
+  grid-gap: 24px;
+  cursor: pointer;
+  justify-content: start;
+  grid-template-columns: repeat(2, auto);
+  padding-bottom: 24px;
+}
+
+.social a span {
+ text-align: start;
+}
+
+.highlight-link {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+.highlight-link:hover {
+  color: rgb(39, 141, 39);
+}
+
+.instagram-link {
+  color: #8a3ab9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.instagram-link:hover {
+  color: #6c278d;
+}
+
+@media (max-width: 425px) {
+  .contact .label label {
+    width: 100%;
+  }
+}
