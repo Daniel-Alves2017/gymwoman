@@ -3,7 +3,7 @@ import './style.css';
 function Footer() {
   return (
     <footer>
-      <span>copyright@ Desenvolvido por Ingrid Lorrane</span>
+      <span>copyright@ Desenvolvido por Daniel e Kamila</span>
     </footer>
   );
 }

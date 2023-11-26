@@ -3,9 +3,9 @@ import './style.css';
 const Home = () => {
   return (
     <aside className="home">
-      <label className="center">CENTRO DE TREINAMENTO</label>
+      <label className="center">GymWoman</label>
       <div>
-        <label>TEAM ARMANNI</label>
+        <label>GymWoman</label>
       </div>
     </aside>
   );
