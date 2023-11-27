@@ -27,7 +27,7 @@ interface IStudent extends InputHTMLAttributes<HTMLInputElement> {
   id: string;
   nome: string;
   modalidade: string;
-  grau_faixa: string;
+  frequencia: string;
   situacao?: string;
   dia_semana?: string;
   horario?: string;
@@ -63,7 +63,7 @@ function Student() {
     console.log(student);
     SetNewNome(student[0].nome);
     SetNewModalidade(student[0].modalidade);
-    SetNewFaixa(student[0].grau_faixa);
+    SetNewFaixa(student[0].frequencia);
     SetStep("edit_student");
   };
 
@@ -91,7 +91,7 @@ function Student() {
       api()
         .post(`${import.meta.env.VITE_API_ROTA_URL}/students`, {
           dia_semana: "sabado",
-          grau_faixa: newFaixa,
+          frequencia: newFaixa,
           horario: "09:00:00",
           modalidade: newModalidade,
           nome: newNome,
@@ -112,7 +112,7 @@ function Student() {
         nome: newNome !== "" ? newNome : studentSelected[0].nome,
         modalidade:
           newModalidade !== "" ? newModalidade : studentSelected[0].modalidade,
-        grau_faixa: newFaixa !== "" ? newFaixa : studentSelected[0].grau_faixa,
+          frequencia: newFaixa !== "" ? newFaixa : studentSelected[0].frequencia,
       })
       .then((res) => SetDados(res.data))
       .catch((err) => console.log(err));
@@ -199,11 +199,11 @@ function Student() {
             </thead>
             <tbody>
               {dados.map(
-                ({ id, nome, modalidade, grau_faixa, situacao }: IStudent) => (
+                ({ id, nome, modalidade, frequencia, situacao }: IStudent) => (
                   <tr key={id}>
                     <td>{nome}</td>
                     <td>{modalidade}</td>
-                    <td>{grau_faixa}</td>
+                    <td>{frequencia}</td>
                     <td>{situacao}</td>
                     <td>
                       <Button
@@ -268,8 +268,8 @@ function Student() {
                 <label htmlFor="nome">Grau da Faixa:</label>
                 <input
                   type="text"
-                  id="grau_faixa"
-                  name="grau_faixa"
+                  id="frequencia"
+                  name="frequencia"
                   value={newFaixa}
                   onChange={(e) => SetNewFaixa(e.target.value)}
                 />
@@ -331,7 +331,7 @@ function Student() {
               </div>
               <div>
                 <label htmlFor="">Faixa:</label>
-                <h3>{studentSelected[0].grau_faixa}</h3>
+                <h3>{studentSelected[0].frequencia}</h3>
               </div>
               <div className="group-buttons">
                 <Button
@@ -390,7 +390,7 @@ function Student() {
               </div>
               <div>
                 <label htmlFor="">Faixa:</label>
-                <h3>{studentSelected[0].grau_faixa}</h3>
+                <h3>{studentSelected[0].frequencia}</h3>
               </div>
               <div>
                 <label htmlFor="">Situação:</label>
@@ -467,8 +467,8 @@ function Student() {
                 <label htmlFor="nome">Grau da Faixa:</label>
                 <input
                   type="text"
-                  id="grau_faixa"
-                  name="grau_faixa"
+                  id="frequencia"
+                  name="frequencia"
                   placeholder=""
                   onChange={(e) => SetNewFaixa(e.target.value)}
                 />
