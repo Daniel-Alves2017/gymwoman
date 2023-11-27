@@ -1,8 +1,8 @@
 {
-  "name": "team-armanni",
+  "name": "GymWoman",
   "private": true,
   "version": "1.0.0",
-  "description": "TCC PUC MINAS - Software - CENTRO DE TREINAMENTO TEAM ARMANNI",
+  "description": "TCC PUC MINAS - Software - GymWoman",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,12 +10,13 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "author": "Ingrid lorrane",
+  "author": "Daniel/Kamila",
   "license": "ISC",
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/node": "^20.3.1",
