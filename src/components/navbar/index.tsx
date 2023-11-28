@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { VscAccount, VscSignOut, VscHome, VscMenu } from 'react-icons/vsc';
+import { VscMenu } from 'react-icons/vsc';
 import { PiUserSquareDuotone } from "react-icons/pi";
 import { CiLogout } from "react-icons/ci";
 
