@@ -18,11 +18,11 @@ function Modality() {
       {step === 0 && (
         <aside className="modality group">
           <Card onClick={() => SetStep(1)}>
-            <p>Musculação</p>
+            <p>AERÓBICA</p>
             <img src={bg_modalidade_kick} alt="modalidade de musculação" />
           </Card>
           <Card onClick={() => SetStep(2)}>
-            <p>AERÓBICA</p>
+            <p>MUSCULAÇÃO</p>
             <img src={bg_modalidade_jiu} alt="modalidade de AERÓBICA" />
           </Card>
         </aside>
