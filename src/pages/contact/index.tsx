@@ -52,7 +52,8 @@ const Contact = () => {
       </div>
       <div className="label">
         <label>
-           R. Marquês de Paranaguá, 111 - Consolação, São Paulo - SP, 01303-050
+                   R. Marquês de Paranaguá, 111 - 
+                   Consolação, São Paulo - SP, 01303-050
         </label>
       </div>
     </aside>
