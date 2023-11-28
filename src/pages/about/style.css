@@ -9,7 +9,7 @@ max-width: 80%;
 }
 
 .about img {
-  width: 50%;
+  width: 100%;
   object-fit: cover;
   height: 100%;
 }
