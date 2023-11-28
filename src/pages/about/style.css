@@ -11,7 +11,7 @@ max-width: 80%;
 .about img {
   width: 50%;
   object-fit: contain;
-  height: fit-content;
+  height: max-content;
 }
 
 @media (max-width: 1280px) {
