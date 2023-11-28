@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { VscAccount, VscSignOut, VscHome, VscMenu } from 'react-icons/vsc';
+import { PiUserSquareDuotone } from "react-icons/pi";
+import { CiLogout } from "react-icons/ci";
 
 import './style.css';
 import { GlobalStyle } from '../../style';
@@ -39,7 +41,7 @@ function Navbar() {
       <ul className="web-navbar">
         <li>
           <Link to="/">
-            <VscHome size={42} />
+            Home
           </Link>
         </li>
         <li>
@@ -56,13 +58,13 @@ function Navbar() {
         </li>
         <li>
           <Link to="/login">
-            <VscAccount size={32} />
+            <PiUserSquareDuotone size={32} />
           </Link>
         </li>
         {step === 1 && (
           <li>
             <Link to="/" onClick={Logout}>
-              <VscSignOut size={32} color="white" />
+              <CiLogout size={32} color="white" />
             </Link>
           </li>
         )}
