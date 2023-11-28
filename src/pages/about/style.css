@@ -10,7 +10,7 @@ max-width: 80%;
 
 .about img {
   width: 50%;
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
 }
 
