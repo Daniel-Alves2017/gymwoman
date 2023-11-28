@@ -58,13 +58,13 @@ function Navbar() {
         </li>
         <li>
           <Link to="/login">
-            <PiUserSquareDuotone size={32} />
+            <PiUserSquareDuotone size={42} />
           </Link>
         </li>
         {step === 1 && (
           <li>
             <Link to="/" onClick={Logout}>
-              <CiLogout size={32} color="white" />
+              <CiLogout size={33} color="white" />
             </Link>
           </li>
         )}
@@ -83,13 +83,13 @@ function Navbar() {
         <div>
           <li>
             <Link to="/login">
-              <VscAccount size={32} />
+              <PiUserSquareDuotone size={32} />
             </Link>
           </li>
           {step === 1 && (
             <li>
               <Link to="/" onClick={Logout}>
-                <VscSignOut size={32} color="white" />
+                <CiLogout size={32} color="white" />
               </Link>
             </li>
           )}
@@ -98,7 +98,7 @@ function Navbar() {
       <ul className={`collapse-${openCollapse}`}>
         <li onClick={() => SetOpenCollapse(!openCollapse)}>
           <Link to="/">
-            <VscHome size={42} />
+            Home
           </Link>
         </li>
         <li onClick={() => SetOpenCollapse(!openCollapse)}>
