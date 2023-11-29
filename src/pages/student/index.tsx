@@ -330,7 +330,7 @@ function Student() {
                 <h3>{studentSelected[0].modalidade}</h3>
               </div>
               <div>
-                <label htmlFor="">Faixa:</label>
+                <label htmlFor="">Frequencia:</label>
                 <h3>{studentSelected[0].frequencia}</h3>
               </div>
               <div className="group-buttons">
@@ -389,7 +389,7 @@ function Student() {
                 <h3>{studentSelected[0].modalidade}</h3>
               </div>
               <div>
-                <label htmlFor="">Faixa:</label>
+                <label htmlFor="">Frequencia:</label>
                 <h3>{studentSelected[0].frequencia}</h3>
               </div>
               <div>
@@ -464,7 +464,7 @@ function Student() {
                 />
               </div>
               <div>
-                <label htmlFor="nome">Grau da Faixa:</label>
+                <label htmlFor="nome">Frequencia:</label>
                 <input
                   type="text"
                   id="frequencia"
