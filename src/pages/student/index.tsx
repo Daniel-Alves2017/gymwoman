@@ -192,7 +192,7 @@ function Student() {
               <tr>
                 <th>Nome</th>
                 <th>Modalidade</th>
-                <th>Faixa</th>
+                <th>Frequencia</th>
                 <th>Situação</th>
                 <th>Opções</th>
               </tr>
@@ -265,7 +265,7 @@ function Student() {
                 />
               </div>
               <div>
-                <label htmlFor="nome">Grau da Faixa:</label>
+                <label htmlFor="nome">Frequencia:</label>
                 <input
                   type="text"
                   id="frequencia"
