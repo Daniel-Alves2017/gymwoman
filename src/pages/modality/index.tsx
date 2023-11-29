@@ -30,54 +30,30 @@ function Modality() {
 
       {step === 1 && (
         <aside className="modality kick">
-          <h1>Kickboxing</h1>
+          <h1>Musculação</h1>
           <div>
             <p>
-              O kickboxing é uma arte marcial e esporte de combate que combina
-              técnicas de boxe com chutes de artes marciais como o karatê e o
-              muay thai. É uma modalidade intensa e desafiadora que oferece
-              diversos benefícios físicos e mentais para quem a pratica.
+              A Ginástica Aeróbica é uma modalidade onde se executam padrões de movimentos aeróbicos complexos,
+               de forma continuada e com alta intensidade, originários da dança aeróbica tradicional, 
+               utilizando a estrutura e o estilo da música, e interpretando-a.Padrões de Movimentos 
+               Aeróbicos são a combinação simultânea de passos básicos e movimentos de braços executados
+               de forma consecutiva, respeitando a característica da música para assim criar sequências dinâmicas, 
+               rítmicas e contínuas, de movimentos de alto e baixo impacto.
+               A rotina (coreografia) deve demonstrar movimentos contínuos, flexibilidade, força, agilidade e equilíbrio,
+               além de utilizar os sete passos básicos e elementos de dificuldade com alto nível de perfeição.
+               O ginasta deve apresentar-se de forma cativante e alegre, porém com naturalidade, sem expressões faciais exageradas.
             </p>
 
-            <h2>Benefícios do Kickboxing</h2>
-            <ul>
-              <li>
-                <strong>Condicionamento físico:</strong> O kickboxing é uma
-                forma eficaz de exercício cardiovascular, ajudando a melhorar a
-                resistência cardiovascular, a queima de calorias e a capacidade
-                pulmonar.
-              </li>
-              <li>
-                <strong>Coordenação e agilidade:</strong> A prática do
-                kickboxing exige coordenação entre os membros superiores e
-                inferiores, além de movimentos rápidos e precisos.
-              </li>
-              <li>
-                <strong>Fortalecimento muscular:</strong> Os movimentos
-                repetitivos de socos e chutes no kickboxing ajudam a fortalecer
-                os músculos do corpo inteiro.
-              </li>
-              <li>
-                <strong>Controle de peso:</strong> Devido à natureza intensa e
-                ao alto gasto calórico, o kickboxing pode ser uma ótima opção
-                para quem deseja perder peso ou manter um peso saudável.
-              </li>
-              <li>
-                <strong>Autoconfiança e autoestima:</strong> O kickboxing
-                proporciona um senso de conquista e melhora a autoconfiança à
-                medida que você aprende novas técnicas e supera desafios
-                físicos.
-              </li>
-              <li>
-                <strong>Gerenciamento do estresse:</strong> O kickboxing é uma
-                ótima maneira de liberar o estresse acumulado, ajudando a
-                aliviar a tensão e melhorar o humor.
-              </li>
-              <li>
-                <strong>Defesa pessoal:</strong> O kickboxing ensina habilidades
-                de autodefesa que podem ser úteis em situações de perigo.
-              </li>
-            </ul>
+            <p>
+            É composta por 7 Passos Básicos e 4 Grupos de Elementos de Dificuldade, além de elevações, transições e ligações entre os movimentos.
+             A duração total da coreografia é de 1 minuto e 45 segundos.
+             Os 7 Passos Básicos da GAE são:MarchaJogging (Corrida)ChutinhoChute AltoPolichineloElevações de JoelhoLunge (A Fundo)
+             Os 4 Grupos de Elementos de Dificuldade são:Força Dinâmica:
+             Ex. Flexões de Braços, Cortadas, Círculos de Pernas.Força Estática: Ex. Esquadros, Pranchas.Saltos: Ex. Grupado, Afastado, Carpado, Cortado, Tesoura.Flexibilidade e Equilíbrio: Ex. Espacatos, Giros, Pegadas
+            </p>
+
+              
+            
           </div>
           <Button
             text="Voltar"
