@@ -30,7 +30,7 @@ function Modality() {
 
       {step === 1 && (
         <aside className="modality kick">
-          <h1>Musculação</h1>
+          <h1>Aeróbica</h1>
           <div>
             <p>
               A Ginástica Aeróbica é uma modalidade onde se executam padrões de movimentos aeróbicos complexos,
@@ -68,53 +68,28 @@ function Modality() {
 
       {step === 2 && (
         <aside className="modality jiu">
-          <h1>Jiu-jítsu</h1>
+          <h1>Musculução</h1>
           <div>
             <p>
-              O jiu-jítsu é uma arte marcial japonesa que se concentra em
-              técnicas de luta no chão e estrangulamentos. É um esporte
-              desafiador e altamente técnico que oferece diversos benefícios
-              físicos e mentais para quem o pratica.
+            É a modalidade que visa o treinamento e desenvolvimento dos músculos. 
+             Utiliza aparelhos, barras, halteres, pesos livres ou o peso do próprio corpo e pode ser 
+             direcionada para os mais variados objetivos, aumentar ou definir a musculatura, 
+             prevenir lesões e até no tratamento de doenças musculares, ósseas, metabólicas e melhoria na mobilidade e postura. 
+             Adequando as cargas e as intensidades dos exercícios para cada pessoa, com base na sua idade, peso, sexo e histórico
+             em atividade física, esta forma de treinamento aumenta o gasto calórico, o ganho de massa magra e acelera o metabolismo, 
+             fazendo o corpo funcionar de maneira mais eficiente.
             </p>
-            <h2>Benefícios do jiu-jítsu</h2>
-            <ul>
-              <li>
-                <strong>Condicionamento físico:</strong> O jiu-jítsu é um
-                exercício completo que melhora o condicionamento cardiovascular,
-                a resistência muscular e a flexibilidade.
-              </li>
-              <li>
-                <strong>Técnica e precisão:</strong> A prática do jiu-jítsu
-                exige técnica refinada e movimentos precisos para controlar e
-                finalizar o oponente.
-              </li>
-              <li>
-                <strong>Fortalecimento muscular:</strong> As técnicas de
-                alavancas e imobilizações no jiu-jítsu fortalecem os músculos do
-                corpo inteiro, especialmente o core e os membros superiores.
-              </li>
-              <li>
-                <strong>Foco e concentração:</strong> Durante os treinos e
-                competições de jiu-jítsu, é necessário manter um alto nível de
-                foco e concentração para aplicar as técnicas corretamente.
-              </li>
-              <li>
-                <strong>Disciplina e autocontrole:</strong> O jiu-jítsu ensina a
-                importância da disciplina, respeito e autocontrole, promovendo
-                valores essenciais no desenvolvimento pessoal.
-              </li>
-              <li>
-                <strong>Confiança e autoestima:</strong> A medida que se aprende
-                e aplica as técnicas do jiu-jítsu, a confiança e a autoestima
-                são aprimoradas, resultando em um maior sentimento de segurança
-                em si mesmo.
-              </li>
-              <li>
-                <strong>Estratégia e tomada de decisão:</strong> O jiu-jítsu é
-                um esporte estratégico, que requer tomadas de decisão rápidas e
-                eficientes durante os combates.
-              </li>
-            </ul>
+            <p>
+            Os benefícios da musculação são: eliminação da gordura, aumento da massa muscular, aumento da força muscular, melhora a atividade cardíaca, 
+             a postura, a auto-estima, o sono, o bem-estar, os quadros de depressão, aumenta a resistência do sistema imunológico. Ameniza a celulite, 
+             pois o exercício com peso evita a flacidez e define os músculos.
+            </p>
+
+            <p>
+            Para mulheres, por exemplo, é uma ótima aliada contra a osteoporose e alivia sintomas da TPM por causa da liberação de endorfinas e outros hormônios
+             responsáveis pelo bem-estar. Além disso, do ponto de vista estético, o maior destaque vai para o ganho de resistência e de massa muscular, 
+             caso seu treino seja voltado para hipertrofia (desenvolvimento dos músculos).
+            </p>
           </div>
           <Button
             text="Voltar"
